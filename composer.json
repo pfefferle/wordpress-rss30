@@ -1,5 +1,5 @@
 {
-    "name": "mpfefferle/wordpress-rss30",
+    "name": "pfefferle/wordpress-rss30",
     "type": "wordpress-plugin",
     "require": {
         "php": ">=5.6.0",
