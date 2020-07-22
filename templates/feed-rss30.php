@@ -15,7 +15,7 @@ link: <?php echo site_url( '/' ); ?><?php echo PHP_EOL; ?>
 language: <?php bloginfo_rss( 'language' ); ?><?php echo PHP_EOL; ?>
 creator: <?php echo site_url( '/' ); ?><?php echo PHP_EOL; ?>
 guid: <?php echo site_url( '/' ); ?><?php echo PHP_EOL; ?>
-generator: http://www.movabletype.org/?v=2.64<?php echo PHP_EOL; ?>
+generator: <?php echo esc_url_raw( 'https://wordpress.org/?v=' . get_bloginfo_rss( 'version' ) ); ?><?php echo PHP_EOL; ?>
 
 <?php
 /**
