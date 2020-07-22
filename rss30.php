@@ -2,7 +2,7 @@
 /**
  * Plugin Name: RSS 3.0
  * Plugin URI: https://github.com/pfefferle/wordpress-rss30
- * Description:
+ * Description: A satire!
  * Author: Matthias Pfefferle
  * Author URI: https://notiz.blog
  * Version: 1.0.0
