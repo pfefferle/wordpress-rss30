@@ -9,6 +9,7 @@
  * License: MIT
  * License URI: https://opensource.org/licenses/MIT
  * Text Domain: rss30
+ * Update URI: https://github.com/pfefferle/wordpress-rss30
  */
 
 register_activation_hook( __FILE__, 'rss30_flush_rewrite_rules' );
