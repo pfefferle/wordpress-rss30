@@ -26,7 +26,7 @@ do_action( 'rss3_head' );
 while ( have_posts() ) :
 	the_post();
 	?>
-title: <?php the_title_rss(); ?><?php echo PHP_EOL; ?>
+title: <?php echo html_entity_decode( get_the_title_rss() ); ?><?php echo PHP_EOL; ?>
 link: <?php the_permalink_rss(); ?><?php echo PHP_EOL; ?>
 description: <?php echo html_entity_decode( get_the_excerpt() ); ?><?php echo PHP_EOL; ?>
 date: <?php echo mysql2date( 'c', get_post_time( 'Y-m-d H:i:s', true ), false ); ?><?php echo PHP_EOL; ?>
