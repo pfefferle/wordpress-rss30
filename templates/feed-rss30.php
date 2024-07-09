@@ -10,7 +10,7 @@ header( 'Content-Type: ' . feed_content_type( 'rss3' ) . '; charset=' . get_opti
 do_action( 'rss_tag_pre', 'rss3' );
 ?>
 title: <?php wp_title_rss(); ?><?php echo PHP_EOL; ?>
-description: <?php get_bloginfo_rss( 'description' ); ?><?php echo PHP_EOL; ?>
+description: <?php echo html_entity_decode( get_bloginfo_rss( 'description' ) ); ?><?php echo PHP_EOL; ?>
 link: <?php echo site_url( '/' ); ?><?php echo PHP_EOL; ?>
 language: <?php bloginfo_rss( 'language' ); ?><?php echo PHP_EOL; ?>
 creator: <?php echo site_url( '/' ); ?><?php echo PHP_EOL; ?>
